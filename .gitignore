@@ -4,6 +4,7 @@
 .vscode/
 .gradle/
 __pycache__
+.pytest_cache/
 /[Bb]uild
 [Oo]ut/**
 CMakeUserPresets.json
@@ -25,4 +26,29 @@ _savebackup/
 .command_settings
 CrashDB/
 *.DotSettings.user
-imgui.ini
+
+# Editor and OS junk files
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+# macOS
+.DS_Store
+._*
+.Spotlight-V100/
+.Trashes/
+.DocumentRevisions-V100/
+.fseventsd/
+# Linux / desktop
+.directory
+# *nix cross-platform backup files
+*~
+*.bak
+*.orig
+*.rej
+# Editor swap and autosave files
+*.swp
+*.swo
+*.kate-swp
+.freebuff/
